@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main id="content" className="page home">
+    <div className="page home">
       <h2>About This Site</h2>
 
       <p>
@@ -10,9 +10,7 @@ export default function Home() {
         completed throughout the semester.
       </p>
 
-      <p>
-        Use the navigation links above to explore my course materials and archived work.
-      </p>
-    </main>
+      <p>Use the navigation links above to explore my course materials.</p>
+    </div>
   );
 }

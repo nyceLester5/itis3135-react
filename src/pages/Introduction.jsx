@@ -1,14 +1,14 @@
 export default function Introduction() {
   return (
-    <main id="content" className="page introduction responsive">
+    <div className="page introduction responsive">
       <h2>Introduction</h2>
       <h3>Tranyce Lester · Nova Lion</h3>
 
       <figure>
         <img 
-          src="images/profile.jpg" 
-          alt="Portrait of Tranyce Lester" 
-          loading="lazy" 
+          src="/images/profile.jpg"
+          alt="Portrait of Tranyce Lester"
+          loading="lazy"
         />
         <figcaption>Tranyce Lester</figcaption>
       </figure>
@@ -75,6 +75,6 @@ export default function Introduction() {
           fan of math, but it was required.
         </li>
       </ul>
-    </main>
+    </div>
   );
 }

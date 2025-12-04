@@ -1,6 +1,6 @@
 export default function Contract() {
   return (
-    <main id="content" className="page contract responsive">
+    <div className="page contract responsive">
       <h2>Contract</h2>
 
       <p>
@@ -18,6 +18,6 @@ export default function Contract() {
         credit (i.e., external libraries) and never from my classmates.{" "}
         <em>Signed: Tranyce I. Lester, 10/17/2025</em>
       </p>
-    </main>
+    </div>
   );
 }
