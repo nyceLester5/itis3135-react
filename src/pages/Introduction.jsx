@@ -6,7 +6,7 @@ export default function Introduction() {
 
       <figure>
         <img 
-          src="/images/profile.jpg"
+          src="/profile.jpg"
           alt="Portrait of Tranyce Lester"
           loading="lazy"
         />

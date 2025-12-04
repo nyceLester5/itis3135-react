@@ -58,24 +58,25 @@ export default function Footer() {
       </p>
 
       <div className="validators">
-        <a href="https://validator.w3.org/check?uri=referer" id="validation-link-html">
-          <img
-            src="/tlester5/itis3135/images/button_validation_html5.png"
-            width="88"
-            height="31"
-            alt="Validate webpage HTML"
-          />
-        </a>
+  <a href="https://validator.w3.org/check?uri=referer">
+    <img 
+      src="/button_validation_html5.png"
+      width="88"
+      height="31"
+      alt="Validate HTML"
+    />
+  </a>
 
-        <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation-link-css">
-          <img
-            src="/tlester5/itis3135/images/button_validation_css.png"
-            width="88"
-            height="31"
-            alt="Validate webpage CSS"
-          />
-        </a>
-      </div>
+  <a href="https://jigsaw.w3.org/css-validator/check/referer">
+    <img
+      src="/button_validation_css.png"
+      width="88"
+      height="31"
+      alt="Validate CSS"
+    />
+  </a>
+</div>
+
     </footer>
   );
 }
