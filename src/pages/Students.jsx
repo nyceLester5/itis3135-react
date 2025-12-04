@@ -44,13 +44,15 @@ export default function Students() {
                 background: "#fafafa",
               }}
             >
-              <h3>{student.name}</h3>
-              <p>
-                <strong>Email:</strong> {student.email}
-              </p>
-              <p>
-                <strong>Section:</strong> {student.section}
-              </p>
+              <h3>
+                {
+                  student.name?.preferred ||
+                  `${student.name?.first ?? ""} ${student.name?.last ?? ""}`
+                }
+              </h3>
+
+              <p><strong>Email:</strong> {student.email}</p>
+              <p><strong>Section:</strong> {student.section}</p>
 
               {student.website && (
                 <p>
@@ -65,31 +67,20 @@ export default function Students() {
                 </p>
               )}
 
+              <p><strong>Personal Background:</strong> {student.personal_background}</p>
+              <p><strong>Professional Background:</strong> {student.professional_background}</p>
+              <p><strong>Academic Background:</strong> {student.academic_background}</p>
+              <p><strong>Platform:</strong> {student.primary_computer_platform}</p>
+
               <p>
-                <strong>Personal Background:</strong>{" "}
-                {student.personal_background}
+                <strong>Courses:</strong>{" "}
+                {Array.isArray(student.courses_taking)
+                  ? student.courses_taking.join(", ")
+                  : student.courses_taking}
               </p>
-              <p>
-                <strong>Professional Background:</strong>{" "}
-                {student.professional_background}
-              </p>
-              <p>
-                <strong>Academic Background:</strong>{" "}
-                {student.academic_background}
-              </p>
-              <p>
-                <strong>Platform:</strong>{" "}
-                {student.primary_computer_platform}
-              </p>
-              <p>
-                <strong>Courses:</strong> {student.courses_taking}
-              </p>
-              <p>
-                <strong>Funny Fact:</strong> {student.funny_thing}
-              </p>
-              <p>
-                <strong>Additional Info:</strong> {student.anything_else}
-              </p>
+
+              <p><strong>Funny Fact:</strong> {student.funny_thing}</p>
+              <p><strong>Additional Info:</strong> {student.anything_else}</p>
             </div>
           ))}
         </div>
