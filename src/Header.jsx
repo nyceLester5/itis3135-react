@@ -28,14 +28,14 @@ export default function Header() {
         </ul>
       </nav>
 
-      {/* Secondary "crappy navigation" */}
+      {/* Secondary "crappy navigation" 
       <nav aria-label="crappy navigation" className="crappy-nav">
         <ul className="crappy-list">
           <li className="crappy-item">
             <a href="/tlester5/itis3135/stuff/MY&CRAPPY.htm">Crappy Page</a>
           </li>
         </ul>
-      </nav>
+      </nav>*/}
     </header>
   );
 }
