@@ -1,0 +1,80 @@
+export default function Introduction() {
+  return (
+    <main id="content" className="page introduction responsive">
+      <h2>Introduction</h2>
+      <h3>Tranyce Lester · Nova Lion</h3>
+
+      <figure>
+        <img 
+          src="images/profile.jpg" 
+          alt="Portrait of Tranyce Lester" 
+          loading="lazy" 
+        />
+        <figcaption>Tranyce Lester</figcaption>
+      </figure>
+
+      <ul className="bio-list">
+        <li>
+          <strong>Personal Background:</strong> Hi, I’m Tranyce. My hometown is
+          Raeford, North Carolina. I moved to Charlotte about three years ago to
+          attend UNCC, and I am now a junior.
+        </li>
+
+        <li>
+          <strong>Professional Background:</strong> I’m a motivated designer and
+          developer with experience in customer engagement and technology through
+          roles at Apple and Walgreens. My background has strengthened my ability
+          to connect people and products through clear communication,
+          problem-solving, and empathy. Now, I’m focused on building intuitive,
+          accessible digital experiences that blend creativity with technical
+          precision, bringing ideas to life through thoughtful UX and clean,
+          functional code.
+        </li>
+
+        <li>
+          <strong>Academic Background:</strong> I graduated high school in 2021
+          and attended UNCC. I originally majored in Mechanical Engineering.
+          After my first year, I took a year off and came back to school,
+          changing my major to Computer Science (B.A.) with a concentration in
+          Human-Computer Interaction.
+        </li>
+
+        <li>
+          <strong>Background in This Subject:</strong> I have a strong foundation
+          in HTML and CSS and a growing interest in user experience design,
+          particularly in identifying usability problems and creating thoughtful
+          design solutions. I also have programming experience in Java,
+          JavaScript, Python, C, and SQL, which helps me bridge the gap between
+          design and development.
+        </li>
+
+        <li>
+          <strong>Primary Computer Platform:</strong> macOS and Windows.
+        </li>
+
+        <li>
+          <strong>Courses I’m Taking &amp; Why:</strong>
+          <br />
+          <strong>ITCS 3140 – User Experience Methods:</strong> I am interested
+          in designing apps.
+          <br />
+          <strong>ITIS 3135 – Web-Based Programming:</strong> I am also
+          interested in web design and what goes into how a website works. I felt
+          this class would help me better my understanding and skills.
+          <br />
+          <strong>ITIS 4166 – Backend Web Development:</strong> A required
+          course for my concentration.
+          <br />
+          <strong>ITIS 5353 – Social Technology Design:</strong> I haven’t got a
+          good grasp on what exactly this class is yet, but it was required.
+          <br />
+          <strong>ITSC 5358 – Physical Computing:</strong> Focuses on 3D
+          modeling and printing.
+          <br />
+          <strong>MATH 2223 – Elements of Statistics II:</strong> I’m not a big
+          fan of math, but it was required.
+        </li>
+      </ul>
+    </main>
+  );
+}
