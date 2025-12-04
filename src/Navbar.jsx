@@ -13,6 +13,9 @@ export default function Navbar() {
         <li>
           <Link to="/contract">Contract</Link>
         </li>
+        <li>
+          <Link to="/students">Students</Link>
+        </li>
       </ul>
     </nav>
   );

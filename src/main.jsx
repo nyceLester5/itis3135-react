@@ -8,6 +8,7 @@ import App from "./App.jsx";
 import Home from "./pages/Home.jsx";
 import Introduction from "./pages/Introduction.jsx";
 import Contract from "./pages/Contract.jsx";
+import Students from "./pages/Students.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -17,6 +18,8 @@ createRoot(document.getElementById("root")).render(
           <Route index element={<Home />} />
           <Route path="introduction" element={<Introduction />} />
           <Route path="contract" element={<Contract />} />
+          <Route path="/students" element={<Students />} />
+
         </Route>
       </Routes>
     </BrowserRouter>

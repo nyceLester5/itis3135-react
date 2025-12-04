@@ -13,6 +13,8 @@ export default function Header() {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/introduction">Introduction</Link></li>
           <li><Link to="/contract">Contract</Link></li>
+          <li><Link to="/students">Students</Link></li>
+
 
           {/*
           The assignment requires shortening menu to ONLY 3 pages.
