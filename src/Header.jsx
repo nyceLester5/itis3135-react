@@ -14,8 +14,9 @@ export default function Header() {
           <li><Link to="/introduction">Introduction</Link></li>
           <li><Link to="/contract">Contract</Link></li>
 
-          {/* The assignment requires shortening menu to ONLY 3 pages.
-              But if you want to include the full menu temporarily, uncomment this block:
+          {/*
+          The assignment requires shortening menu to ONLY 3 pages.
+          If you want to include the full menu temporarily, uncomment this block:
 
           <li><a href="/tlester5/itis3135/hobby/index.html">Hobby</a></li>
           <li><a href="/tlester5/itis3135/novalion/index.html">Nova Lion</a></li>
@@ -28,14 +29,16 @@ export default function Header() {
         </ul>
       </nav>
 
-      {/* Secondary "crappy navigation" 
+      {/*
+      Secondary "crappy navigation"
       <nav aria-label="crappy navigation" className="crappy-nav">
         <ul className="crappy-list">
           <li className="crappy-item">
             <a href="/tlester5/itis3135/stuff/MY&CRAPPY.htm">Crappy Page</a>
           </li>
         </ul>
-      </nav>*/}
+      </nav>
+      */}
     </header>
   );
 }
